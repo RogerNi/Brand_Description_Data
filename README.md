@@ -42,6 +42,9 @@ All files are in `json` format. Here is a sample:
 
 ```
 
+## Current Usages
+The data is currently used to test `keywords extraction` related programs. 
+
 ## Issues
-+ The context from Wikipedia may have problems with the format that some sentences are splitted by `line break` but not `Whitespace Character`.
++ The context from Wikipedia may have problems with the format that some sentences are splitted by `line break (\n)` but not `Whitespace Character ( )`. In some cases, two words will be regarded as one during word segmentation (if the program first delete all `line break` and the words immediately before and after the `line break` are joint).
 + Some brands are unfortunate to have no context crawled.
