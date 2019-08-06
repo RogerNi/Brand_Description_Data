@@ -1,5 +1,8 @@
 # Brand_Description_Data
 
+## Introduction
+1475 brands with their descriptions from different sources are included in the file.
+
 ## Standardized Data
 ### Raw Data (Corpus)
 #### Contents
@@ -38,3 +41,7 @@ All files are in `json` format. Here is a sample:
 ]
 
 ```
+
+## Issues
++ The context from Wikipedia may have problems with the format that some sentences are splitted by `line break` but not `Whitespace Character`.
++ Some brands are unfortunate to have no context crawled.
